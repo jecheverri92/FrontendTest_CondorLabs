@@ -1,27 +1,40 @@
 # FrontendTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1. [Angular](https://angular.io), [Bootstrap 4](https://getbootstrap.com/) to create a Serverless form-based application.
+
+## Getting Started
+
+To get you started you can simply clone the `FrontendTest_CondorLabs` repository and install the dependencies:
+
+### Prerequisites
+
+You need git to clone the `FrontendTest_CondorLabs` repository. You can get git from [here][git].
+
+I also use a number of Node.js tools to initialize and test `FrontendTest_CondorLabs`. You must have Node.js
+and its package manager (npm) installed. You can get them from [here][node].
+
+### Clone `FrontendTest_CondorLabs`
+
+Clone the `FrontendTest_CondorLabs` repository using git:
+
+```
+git clone https://github.com/jecheverri92/FrontendTest_CondorLabs.git
+cd FrontendTest_CondorLabs
+```
+
 
 ## Development server
+---------
+This starterkit is based off of an [Angular CLI](https://cli.angular.io/) application. Because of this, you will need to install the CLI tool, dependences and launch this application using 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```ng serve -o```
 
-## Code scaffolding
+```
+npm install -g @angular/cli
+npm install
+ng serve -o
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This will launch an Angular application @ [http://localhost:4200](http://localhost:4200) in your browser. You can go there to try out the default application.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
