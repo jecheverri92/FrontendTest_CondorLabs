@@ -27,7 +27,6 @@ cd FrontendTest_CondorLabs
 ---------
 This starterkit is based off of an [Angular CLI](https://cli.angular.io/) application. Because of this, you will need to install the CLI tool, dependences and launch this application using 
 
-```ng serve -o```
 
 ```
 npm install -g @angular/cli
