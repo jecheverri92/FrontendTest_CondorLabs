@@ -1,0 +1,27 @@
+<div class="header">
+  <div class="container mt-6">
+    <div>
+      <div class="search-title pt-5 mb-4">
+        <h2>Find CE for a 
+          <button type="button" class="btn btn-outline-light mx-1 ">Florida</button>
+          <button type="button" class="btn btn-outline-light mx-1">Medical Doctor</button>
+        </h2>
+      </div>
+    </div>
+    
+    
+    <div class="input-group row justify-content-md-center">
+      <div class="col-6">
+        <div class="input-group-prepend">
+          <i class="material-icons search-icon input-group-text " style="opacity: .5;">search</i>
+          <input type="text" class="form-control " placeholder="Search courses and providers" aria-label="Example text with button addon" aria-describedby="button-addon1" (keydown.enter)="getCourse(searchText.value)" #searchText>
+        </div>
+
+      </div>
+    </div> 
+   
+    <div class="row">
+    </div>
+  </div>
+</div> 
+

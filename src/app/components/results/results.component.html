@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="card">
+            <h5 class="card-title">Page {{currentPage}} of: {{pages.length}}</h5>
+        <div class="card-body">
+            <app-course [curso]="curso"  *ngFor="let curso of data let i = index"> </app-course>
+            <hr>
+            <ul class="nav nav-pills pagination flex-lg-nowrap">
+                <li class="nav-item page-item" *ngFor="let p of pages; let i=index">
+                    <a href="" (click)="setPage(i,$event)" class="nav-link" [ngClass]="{'active': i== currentPage-1}">{{i+1}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

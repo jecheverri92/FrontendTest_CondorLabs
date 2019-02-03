@@ -1,0 +1,17 @@
+<div class="course-thumbail container">
+    <div>
+      <img [src]= 'curso.course.provider.logoUrl | noimage' alt="" class="img-course">
+    </div>
+    <div class="course-info">
+      <div>
+        <h5 class="course-thumbail-title">{{curso.course.name}}</h5>
+        <h6 class="course-thumbnail-subtitle">{{curso.course.provider.name}}</h6>
+        <p class="course-thumbnail-additional-info"><i class="material-icons">schedule</i><span>{{curso.totalHours}} Hours</span></p>
+        <p class="course-thumbnail-additional-info"><i class="material-icons course-thumbnail-delivery-method-icon">computer</i>{{curso.course.deliveryMethod.description}} </p>
+  
+      </div>
+      <div>
+          <span class="course-thumbnail-price">{{curso.price | currency}}</span>
+      </div>
+    </div>
+  </div>

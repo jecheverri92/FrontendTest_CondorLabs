@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+body {
+    font-size: 20px;
+    line-height: 1.42857; 
+    color: black;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.btn{
+    border-radius: 0;
+}
+

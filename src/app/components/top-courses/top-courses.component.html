@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Featured</h5>
+      <div class="course-thumbail container" *ngFor="let curso of data" >
+        <div>
+          <img src="https://storage.cebroker.com/CEBroker/{{curso.coursePublication.course.featuredBanner}}" alt="" class="img-course">
+        </div>
+        <div class="course-info">
+          <div>
+            <h5 class="course-thumbail-title">{{curso.coursePublication.course.name}}</h5>
+            <h6 class="course-thumbnail-subtitle">{{curso.coursePublication.course.provider.name}}</h6>
+            <p class="course-thumbnail-additional-info"><i class="material-icons">schedule</i><span>{{curso.coursePublication.totalHours}} Hours</span></p>
+            
+      
+          </div>
+          <div>
+            <span class="course-thumbnail-price">{{curso.coursePublication.course.price | currency}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
